@@ -25,7 +25,7 @@ class _FileUtilsPageState extends State<FileUtilsPage> {
             onPressed: (){
                 FileUtils.saveToFile(textController.text);
             }, 
-            child: Text("Save to tile")
+            child: Text("Save to File")
             ),
           SizedBox(height: 30),
 
